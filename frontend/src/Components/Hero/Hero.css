@@ -1,0 +1,32 @@
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.2),
+            rgba(34, 34, 34, 0.2)),
+        url(../Assets/hero-img.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-right: 100px;
+}
+
+.hero-text div {
+    margin-bottom: 300px;
+}
+
+.hero-text h1 {
+    color: #ffe084;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-size: 75px;
+}
+
+.hero-text p {
+    color: #676464;
+    font-size: 55px;
+    font-weight: 700;
+
+}
